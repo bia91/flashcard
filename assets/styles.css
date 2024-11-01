@@ -1,19 +1,33 @@
-background-color: black;
-    color: white;
+body {
+background-color: bisque;
+font-family: Bai jamjuree;
 }
+
+#conteiner{}
+.cartão {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+.cartão_conteudo{
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+}
+
 footer {
-#container 
-    display: flex: ;;
     background-color: black;
-    color: white;
-    .cartão { margin: 1rem 1rem;
-    }
+    color: pink;
+    position: fixed;
     bottom:0;
-    position:fixed;
-    width:100%;
+    position:100%;
+    width: 2rem;
 }
-footer p{
+
+footer p {
     text-align: center;
     font-size: 0.6rem;
-    margin-top: 0,5rem
+    margin-top: 0,5rem;
 }
